@@ -1,4 +1,4 @@
-// take 2 arrays of strings (musicians and instruments) and 
+// take 2 arrays of strings (musicians and instruments) and
 // returns an array of strings containing what instruments each musician plays
 function theBeatlesPlay(musicians, instruments) {
   newStrings = new Array()
@@ -10,7 +10,7 @@ function theBeatlesPlay(musicians, instruments) {
   return newStrings
 }
 
-// takes in any array of strings  (facts) and 
+// takes in any array of strings  (facts) and
 // returns a new array with exclamation points added to each element
 function johnLennonFacts(facts) {
   index = facts.length

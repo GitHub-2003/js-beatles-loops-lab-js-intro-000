@@ -15,4 +15,5 @@ function johnLennonFacts(facts) {
   while (index -- > 0) {
     facts[i] = `${facts[i]}!!!`
   }
+  return facts
 }

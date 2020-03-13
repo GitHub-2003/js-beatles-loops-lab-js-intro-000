@@ -1,7 +1,4 @@
-const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
-const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
-
-
+// returns an array of strings containing what instruments each musician plays
 function theBeatlesPlay(musicians, instruments) {
   newStrings = new Array()
   console.log(musicians, instruments)
@@ -10,4 +7,12 @@ function theBeatlesPlay(musicians, instruments) {
   }
   console.log(newStrings)
   return newStrings
+}
+
+// returns an array of strings with exclamation points
+function johnLennonFacts(facts) {
+  index = facts.length
+  while (index -- > 0) {
+    facts[i] = `${facts[i]}!!!`
+  }
 }

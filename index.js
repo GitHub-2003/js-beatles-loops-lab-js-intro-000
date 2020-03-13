@@ -9,4 +9,5 @@ function theBeatlesPlay(musicians, instruments) {
     newStrings.push(`${musicians[i]} plays ${instruments[i]}`)
   }
   console.log(newStrings)
+  return newStrings
 }

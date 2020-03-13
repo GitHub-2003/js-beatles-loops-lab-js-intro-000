@@ -1,7 +1,7 @@
 // take 2 arrays of strings (musicians and instruments) and
 // returns an array of strings containing what instruments each musician plays
 function theBeatlesPlay(musicians, instruments) {
-  newStrings = new Array()
+  var newStrings = new Array()
   console.log(musicians, instruments)
   for (let i = 0; i < musicians.length; i++) {
     newStrings.push(`${musicians[i]} plays ${instruments[i]}`)
@@ -19,3 +19,8 @@ function johnLennonFacts(facts) {
   }
   return facts
 }
+
+function iLoveTheBeatles(number) {
+  
+}
+
